@@ -6,8 +6,14 @@
 .title{
     color:#4f0b42;
 }
+.titleMenu:hover{
+    color:antiquewhite !important;
+}
 .titleMenu{
     color:#825a7a !important;
+}
+.textcontent{
+    color:#eae5e9;
 }
 
 header{
@@ -15,8 +21,7 @@ header{
     background: linear-gradient(47deg, rgba(0,0,0,1) 0%, rgba(60,38,88,1) 35%, rgba(253,212,232,1) 100%);
 }
 body{
-    background: rgb(0,0,0);
-    background: linear-gradient(47deg, rgba(0,0,0,1) 0%, rgba(60,38,88,1) 35%, rgba(0,0,0,1) 100%);
+    background: black;
 }
 
 .header1{
