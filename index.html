@@ -7,25 +7,36 @@
   <!-- bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- ./bootstrap -->
+  <!-- Font Google -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <link rel="stylesheet" href="css/font.css">
+  <!-- ./Font Google -->
+  <!-- css custom -->
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- ./css custom -->
 </head>
 <body>
   <!-- header -->
-  <div class="container-fluid">
-    <header>
+  <div class="container-fluid header1 fixed-top">
+    <header class="rounded rounded-top rounded-5">
       <!-- navbar -->
-      <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
-        <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
-        <span class="fs-4 ms-4">My Portofolio</span>
+      <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4">
+        <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none fw-bolder">
+        <span class="fs-4 ms-4 title fw-bold">My Portofolio</span>
         </a>
-        <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto text-break">
-          <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Home</a>
-          <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">About Me</a>
-          <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Projects</a>
-          <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Services</a>
-          <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Blog</a>
-          <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Testimoni</a>
-          <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Gallery</a>
-          <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Resume</a>
+        <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto titleMenu">
+          <p class="text-brek mt-4">
+            <a class="me-3 py-2 titleMenu fw-bold text-decoration-none link-body-emphasis" href="#">Home</a>
+            <a class="me-3 py-2 titleMenu fw-bold text-decoration-none link-body-emphasis" href="#">About Me</a>
+            <a class="me-3 py-2 titleMenu fw-bold text-decoration-none link-body-emphasis" href="#">Projects</a>
+            <a class="me-3 py-2 titleMenu fw-bold text-decoration-none link-body-emphasis" href="#">Services</a>
+            <a class="me-3 py-2 titleMenu fw-bold text-decoration-none link-body-emphasis" href="#">Blog</a>
+            <a class="me-3 py-2 titleMenu fw-bold text-decoration-none link-body-emphasis" href="#">Testimoni</a>
+            <a class="me-3 py-2 titleMenu fw-bold text-decoration-none link-body-emphasis" href="#">Gallery</a>
+            <a class="me-3 py-2 titleMenu fw-bold text-decoration-none link-body-emphasis" href="#">Resume</a>
+          </p>
         </nav>
       </div>
       <!-- ./navbar -->
@@ -33,21 +44,25 @@
   </div>
   <!-- ./header -->
   <!-- Main Content -->
-  <main>
+  <main class="mainCss mt-5"> 
     <!-- Intro Section -->
-      <div class="container-fluid">
+      <div class="container-fluid background1 py-5">
         <div class="row align-items-md-stretch">
           <div class="col-md-6">
-            <div class="h-100 p-5 text-bg-dark rounded-3">
-              <h2 class="text-sm-end text-lg-start">Muhammad Razan Rizqullah</h2>
-              <h5 class="text-sm-end text-lg-start">Frontend Web Developer | Sysadmin | DevOps</h5>
-              <p class="text-break mt-5 text-sm-end text-lg-start"> Hi, just call me Razan. I am someone who is deeply involved in the world of programming and loves challenges.</p>
-              <img src="img/me.png" class="w-50 float-start d-sm-block d-lg-none" alt="my picture">
+            <div class="h-100 p-5">
+              <h2 class="text-sm-start text-lg-start">Muhammad Razan Rizqullah</h2>
+              <h5 class="text-sm-start text-lg-start">Frontend Web Developer | Sysadmin | DevOps</h5>
+              <div class="container my-5 d-sm-block d-lg-none">
+                <img src="img/me.png" class="w-50 float-start me-5 rounded rounded-circle" alt="my picture">
+              </div>
+              <br><br>
+              <p class="mt-5 text-break text-sm-end text-lg-start"> Hi, just call me Razan. I am someone who is deeply involved in the world of programming and loves challenges.</p>
+            
             </div>
           </div>
           <div class="col-md-6">
-            <div class="h-100 p-5 bg-body-tertiary border rounded-3">
-              <p><img src="img/me.png" class="w-50 float-end d-sm-none d-lg-block" alt="my picture"></p>
+            <div class="h-100 p-5">
+              <p class=""><img src="img/me.png" class="w-50 float-end d-none d-lg-block rounded rounded-5" alt="my picture"></p>
             </div>
           </div>
         </div>
