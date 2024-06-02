@@ -7,10 +7,10 @@
     color:#4f0b42;
 }
 .titleMenu:hover{
-    color:antiquewhite !important;
+    color:rgb(149, 4, 154) !important;
 }
 .titleMenu{
-    color:#825a7a !important;
+    color:#ffc6f4 !important;
 }
 .textcontent{
     color:#eae5e9;
@@ -27,4 +27,12 @@ body{
 .header1{
     background: rgb(0,0,0);
     background: linear-gradient(47deg, rgba(0,0,0,1) 0%, rgba(60,38,88,1) 35%, rgba(253,212,232,1) 100%);
+}
+.bg-about{
+    background-color: #fefcfd;
+    color: #3a3053;
+}
+.bg-frontend{
+    background-color: #b2aebc;
+    color: #fefcfd;
 }

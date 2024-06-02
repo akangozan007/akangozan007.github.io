@@ -29,7 +29,7 @@
         <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto titleMenu">
           <p class="text-brek mt-4">
             <a class="me-3 py-2 titleMenu fw-bold text-decoration-none" href="#">Home</a>
-            <a class="me-3 py-2 titleMenu fw-bold text-decoration-none" href="#">About Me</a>
+            <a class="me-3 py-2 titleMenu fw-bold text-decoration-none" href="#about">About Me</a>
             <a class="me-3 py-2 titleMenu fw-bold text-decoration-none" href="#">Projects</a>
             <a class="me-3 py-2 titleMenu fw-bold text-decoration-none" href="#">Services</a>
             <a class="me-3 py-2 titleMenu fw-bold text-decoration-none" href="#">Blog</a>
@@ -48,7 +48,7 @@
     <!-- Intro Section -->
       <div class="container-fluid background1 py-5">
         <div class="row align-items-md-stretch">
-          <div class="col-md-6">
+          <div class="col-md-6 col-sm-12 ">
             <div class="h-100 p-5">
               <h2 class="text-sm-start text-lg-start textcontent">Muhammad Razan Rizqullah</h2>
               <h5 class="text-sm-start text-lg-start textcontent">Frontend Web Developer | Sysadmin | DevOps</h5>
@@ -60,12 +60,12 @@
             
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6  d-none d-lg-block">
             <div class="h-100 p-5">
               <p class="">
-                <img src="img/me.png" class="w-50 float-end d-none d-lg-block rounded rounded-5" alt="my picture">
+                <img src="img/me.png" class="img-fluid float-end rounded rounded-5" alt="my picture">
                 <br>
-                <code class="fw-bolder">" root@myself, don't be a part till you found yourself "</code>
+                <!-- <code class="fw-bolder">" root@myself, don't be a part till you found yourself "</code> -->
               </p>
             </div>
             
@@ -74,10 +74,11 @@
       </div>
     <!-- ./Intro Section -->
     <!-- About Section -->
-    <div class="container-fluid py-4">
-      <div class="p-5 mb-4 bg-body-tertiary rounded-3">
-        <div class="container-fluid py-5">
-          <h1 class="display-5 fw-bold">About Me</h1>
+    <div class="container-fluid py-4" id="about">
+      <div class="p-5 mb-4 bg-about rounded-3">
+        <div class="container-fluid py-5 px-auto">
+          <h1 class="display-5 fw-bold mt-3">About Me</h1>
+          <img src="img/aboutme.jpg" class="img-fluid rounded rounded-5 mb-5 w-25" alt="my picture">
           <p class="col-md-8 fs-4">"I am a 22-year-old young man who enjoys creating applications. For me, challenges are puzzles to be solved, not avoided. Currently, I am based in Cirebon and trying to explore opportunities for remote work. I do not discuss the wages I receive, but rather what I can do to maximize the benefits for the institutions I work for."</p>
           <p class="col-md-8 fs-4">"I am a computer science student from STMIK Cirebon. Currently, I am occupied as an IT Support, Assistant Lab, DevOps, Electronics Repairer, and Web Development Freelancer residing in Cirebon, West Java."</p>
           <p class="col-md-8 fs-4">"I am accustomed to using Linux server computers, troubleshooting, and developing applications for institutions where I usually work. I graduated from the online Web Design bootcamp from freecodecamp.org in 2022."</p>
@@ -88,25 +89,34 @@
   
       <div class="row align-items-md-stretch">
         <div class="col-md-6">
-          <div class="h-100 p-5 text-bg-dark rounded-3">
-            <h2>Frontend Web Developer</h2>
+          <div class="h-100 bg-frontend rounded-3">
+            <h2 class="mt-3">Frontend Web Developer</h2>
+            <div class="d-flex p-5">
+              <img src="img/infocpnslogin.png" class="img-tumbnail w-50 m-2" alt="My Projects">
+            <img src="img/infocpnsdash.png" class="img-tumbnail w-50 m-2" alt="My Projects">
+            </div>
             <p>"I have designed a website for the Indonesian government (<a href="https://infocpns.id/">https://infocpns.id</a>) to provide access to prospective civil servants who want to register using CRUD Flowchart. My role was in optimizing the interface, effects, and design to make it comfortable for users to use."</p>
             <p>"The technologies I use to develop programs include Visual Studio Code desktop and code-server. Web programming languages that I master include JavaScript, HTML5, and CSS. The frameworks I often use are jQuery, Vue.js, Bootstrap, SweetAlert, and DataTables.js at that time."</p>
             <!-- <button class="btn btn-outline-light" type="button">Example button</button> -->
           </div>
         </div>
         <div class="col-md-6">
-          <div class="h-100 p-5 bg-body-tertiary border rounded-3">
-            <h2>SysAdmin</h2>
-            <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
-            <button class="btn btn-outline-secondary" type="button">Example button</button>
+          <div class="h-100 bg-body-tertiary border rounded-3">
+            <h2 class="mt-3">SysAdmin</h2>
+            <div class="d-flex p-5">
+              <img src="img/sysadmin.jpg" class="img-tumbnail w-25 m-2" alt="My Projects">
+            <img src="img/devops.jpg" class="img-tumbnail w-25 m-2" alt="My Projects">
+            </div>
+            <p>"I am currently working on Proxmox server management to configure local VPS to run a web server, which will be used for CBT (Computer-Based Testing)."</p>
+            <p>"The operating system I use for the web server is Debian 12, with Exam CBT installed. It will be used for students to take their exams online."</p>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="h-100 p-5 bg-body-tertiary border rounded-3">
-            <h2>DevOps</h2>
-            <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
-            <button class="btn btn-outline-secondary" type="button">Example button</button>
+          <div class="h-100 bg-body-tertiary border rounded-3">
+            <h2 class="mt-3">DevOps</h2>
+            <img src="img/devops2.jpg" class="img-tumbnail w-50 m-2" alt="My Projects">
+            <p>"My team and I are configuring a DHCP Server, VLAN, Firewall, and Routing. Good IP management can maximize application processes and make the internet more stable and secure."</p>
+           <p>"The devices we use are the Mikrotik Router RB 951 and 750G. My team and I are also building topology for each network node, including the configuration of CCTV within the building."</p>
           </div>
         </div>
       </div>
