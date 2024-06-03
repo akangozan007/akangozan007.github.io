@@ -1,38 +1,46 @@
-.background1{
-    background-image: url("../img/background1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+.background1 {
+  background-image: url("../img/background1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.title{
-    color:#4f0b42;
+.title {
+  color: #4f0b42;
 }
-.titleMenu:hover{
-    color:rgb(149, 4, 154) !important;
+.titleMenu:hover {
+  color: rgb(149, 4, 154) !important;
 }
-.titleMenu{
-    color:#ffc6f4 !important;
+.titleMenu {
+  color: #ffc6f4 !important;
 }
-.textcontent{
-    color:#eae5e9;
-}
-
-header{
-    background: rgb(0,0,0);
-    background: linear-gradient(47deg, rgba(0,0,0,1) 0%, rgba(60,38,88,1) 35%, rgba(253,212,232,1) 100%);
-}
-body{
-    background: black;
+.textcontent {
+  color: #eae5e9;
 }
 
-.header1{
-    background: rgb(0,0,0);
-    background: linear-gradient(47deg, rgba(0,0,0,1) 0%, rgba(60,38,88,1) 35%, rgba(253,212,232,1) 100%);
+header {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(47deg, rgba(0, 0, 0, 1) 0%, rgba(60, 38, 88, 1) 35%, rgba(253, 212, 232, 1) 100%);
 }
-.bg-about{
-    background-color: #fefcfd;
-    color: #3a3053;
+body {
+  background: black;
 }
-.bg-frontend{
-    background-color: #b2aebc;
-    color: #fefcfd;
+
+.header1 {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(47deg, rgba(0, 0, 0, 1) 0%, rgba(60, 38, 88, 1) 35%, rgba(253, 212, 232, 1) 100%);
+}
+.bg-about {
+  background-color: #fefcfd;
+  color: #3a3053;
+}
+.bg-frontend {
+  background-color: #b2aebc;
+  color: #fefcfd;
+}
+.bg-sysadmin {
+  background-color: #5f43b2;
+  color: #fefcfd;
+}
+.bg-devops {
+  background-color: #3a3053;
+  color: #fefcfd;
 }
