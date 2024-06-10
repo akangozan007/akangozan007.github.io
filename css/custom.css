@@ -29,18 +29,24 @@ body {
   background: linear-gradient(47deg, rgba(0, 0, 0, 1) 0%, rgba(60, 38, 88, 1) 35%, rgba(253, 212, 232, 1) 100%);
 }
 .bg-about {
-  background-color: #fefcfd;
-  color: #3a3053;
+  background-image: url("../img/backgroundabout.jpg");
+  /* background-color: #fefcfd; */
+  /* color: #3a3053; */
+  color:  #fefcfd;
 }
 .bg-frontend {
   background-color: #27193a;
   color: #fefcfd;
 }
 .bg-sysadmin {
-  background-color: #5f43b2;
+  background-color: #5f43b2;s
   color: #fefcfd;
 }
 .bg-devops {
   background-color: #3a3053;
   color: #fefcfd;
+}
+.bg-nzanai{
+  background-color: #0E163D;
+  color: #5f43b2;
 }
