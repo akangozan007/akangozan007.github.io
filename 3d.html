@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nyoba 3D Model</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
 </head>
 <body>
     <input type="file" id="select-file">
 <main id="wrapper">
-  <canvas id="renderCanvas"></canvas>
+  <canvas id="renderCanvas" class="container-fluid"></canvas>
 </main>
 <script src="https://preview.babylonjs.com/babylon.js"></script>
 <script src="https://preview.babylonjs.com/loaders/babylonjs.loaders.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/babylon-vrm-loader@^1.4/dist/index.js"></script>
 </body>
+<script src="js/bootstrap.min.js"></script>
 <script type="text/javascript">
 // example usage from https://github.com/BabylonJS/Babylon.js
 const canvas = document.getElementById('renderCanvas');
