@@ -1,7 +1,9 @@
 .background1 {
-  background-image: url("../img/background1.jpg");
+  background-image: url("../img/me1.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: right;
+  background-color:#e9e7e8 !important;
 }
 .title {
   color: #4f0b42;
@@ -13,7 +15,7 @@
   color: #ffc6f4 !important;
 }
 .textcontent {
-  color: #eae5e9;
+  color: #1e2c46;
 }
 
 header {
@@ -21,7 +23,7 @@ header {
   background: linear-gradient(47deg, rgba(0, 0, 0, 1) 0%, rgba(60, 38, 88, 1) 35%, rgba(253, 212, 232, 1) 100%);
 }
 body {
-  background: black;
+  background:#e1dfe0;
 }
 
 .header1 {
